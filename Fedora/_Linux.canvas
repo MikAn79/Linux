@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"f67a5853fa9006b3","type":"file","file":"Linux/Fedora/Включить RPM Fusion.md","x":-3600,"y":-4520,"width":400,"height":160},
+		{"id":"ef0be90381e51fd1","type":"file","file":"Linux/Fedora/Основные команды DNF и утилиты dnf repoquery.md","x":-4040,"y":-4520,"width":400,"height":164},
+		{"id":"a900ca77957fc64f","type":"file","file":"Linux/Fedora/DNF5 Commands.md","x":-3600,"y":-4340,"width":400,"height":240},
+		{"id":"0e0d51d8ed64bd81","type":"file","file":"Linux/Fedora/Команда chmod Linux.md","x":-4040,"y":-4180,"width":400,"height":160},
+		{"id":"d18437d2f0c086fc","type":"file","file":"Linux/Работа с правами доступа файлов и директорий в Linux.md","x":-4040,"y":-3970,"width":400,"height":200},
+		{"id":"339f223ddcd0034f","type":"file","file":"Linux/Fedora/Fedora_Linux_Начало.md","x":-3180,"y":-4520,"width":400,"height":320,"color":"2"},
+		{"id":"c174685d622af620","type":"file","file":"Linux/Fedora/Пользователи и группы.md","x":-4040,"y":-4340,"width":400,"height":140},
+		{"id":"8d9d976376ee2704","type":"file","file":"Руководство по последующей Установке Fedora 42.md","x":-2740,"y":-4520,"width":400,"height":320},
+		{"id":"797d5e040bf23105","x":-2740,"y":-4119,"width":400,"height":249,"type":"file","file":"Clippings/Cron в Linux полное руководство для админов + скрытые проблемы.md"},
+		{"id":"cccba9de8c51d1df","type":"file","file":"Linux/Журналы_journalctl.md","x":-3180,"y":-4154,"width":400,"height":160},
+		{"id":"a8fe367b2d65fe76","type":"file","file":"Linux/Логи Linux - Losst.md","x":-3180,"y":-3970,"width":400,"height":240}
+	],
+	"edges":[
+		{"id":"3335cb11ca2a47ff","fromNode":"339f223ddcd0034f","fromSide":"right","toNode":"a900ca77957fc64f","toSide":"left"},
+		{"id":"294b6fabf03adde1","fromNode":"cccba9de8c51d1df","fromSide":"left","toNode":"a8fe367b2d65fe76","toSide":"right"},
+		{"id":"04f163abac9a3791","fromNode":"339f223ddcd0034f","fromSide":"left","toNode":"cccba9de8c51d1df","toSide":"top"},
+		{"id":"e3d980149aee833e","fromNode":"d18437d2f0c086fc","fromSide":"left","toNode":"0e0d51d8ed64bd81","toSide":"right"},
+		{"id":"c596a16b4a4046f4","fromNode":"0e0d51d8ed64bd81","fromSide":"right","toNode":"d18437d2f0c086fc","toSide":"left"},
+		{"id":"894adf8a102cf78c","fromNode":"0e0d51d8ed64bd81","fromSide":"right","toNode":"d18437d2f0c086fc","toSide":"left"},
+		{"id":"993e955ec424ae08","fromNode":"339f223ddcd0034f","fromSide":"right","toNode":"8d9d976376ee2704","toSide":"left"},
+		{"id":"7c699fa77db50572","fromNode":"339f223ddcd0034f","fromSide":"left","toNode":"f67a5853fa9006b3","toSide":"right"},
+		{"id":"c0c087e6daa2b4d5","fromNode":"a8fe367b2d65fe76","fromSide":"top","toNode":"cccba9de8c51d1df","toSide":"bottom"}
+	]
+}
