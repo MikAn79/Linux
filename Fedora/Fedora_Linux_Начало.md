@@ -92,7 +92,7 @@ sudo rm -f /var/cache/dnf/fastestmirror.cache
 ```
 sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing # Switch to full FFMPEG.
 sudo dnf group upgrade multimedia
-sudo dnf upgrade @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin # Installs gstreamer components. Required if you use Gnome Videos and other dependent applications.
+sudo dnf upgrade @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin 
 sudo dnf group install -y sound-and-video # Installs useful Sound and Video complement packages.
 ```
 
